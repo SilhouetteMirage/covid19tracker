@@ -1,0 +1,14 @@
+
+.formControl {
+    width: 30%;
+    margin-bottom: 30px !important;
+  }
+  
+  .nativeSelect {
+      background-color: rgba(204, 204, 204, 0.25);
+      padding: 0.2em;      
+  }
+
+  .nativeSelect:hover {
+      background-color: rgba(204, 204, 204, 0.5);
+  }

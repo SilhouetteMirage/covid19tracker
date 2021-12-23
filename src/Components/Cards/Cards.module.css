@@ -1,0 +1,28 @@
+.container {
+    margin: 50px 0px;
+  }
+  
+  .card {
+    margin: 0 2% !important;
+  }
+  
+  .infected {
+    background-color: rgba(23, 206, 175, 0.5) !important;
+    border-bottom: 10px solid rgba(11, 107, 91, 0.5);
+  }
+  
+  .deaths {
+    background-color: rgba(236, 92, 92, 0.5) !important;
+    border-bottom: 10px solid rgba(156, 14, 14, 0.5);
+  }
+
+  .proportion {
+    background-color: rgba(220, 220, 30, 0.5) !important;
+    border-bottom: 10px solid rgba(188, 60, 10, 0.5);
+  }
+  
+  @media (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
