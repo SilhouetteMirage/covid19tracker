@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { Component } from 'react';
 
 const copyDate = new Date().getFullYear();
@@ -21,6 +22,7 @@ class Footer extends Component {
                     Created using&nbsp;
                     <a href="https://towardsdatascience.com/lets-create-a-covid-19-tracker-using-react-js-5a3a0265a633"
                     target="_blank"
+                    rel="noreferrer"
                     style={{color: 'rgba(23, 206, 175, 0.8)', textDecoration: 'none'}}>Sabesan Sathanathan</a>'s tutorial.</span>
             </footer>
         );
