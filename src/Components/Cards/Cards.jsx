@@ -46,20 +46,20 @@ const Cards = ({
             <Grid
               item
               component={Card}
-              xs={6}
+              xs={12}
               md={3}
               className={cx(styles.Card, detail.style)}
               key={index}
               style={{ margin: "0px 30px", padding: "10px" }}
             >
               <CardContent>
-                <Typography color="textPrimary" variant="h4" gutterBottom>
+                <Typography color="textPrimary" variant="h5" gutterBottom>
                   <b>{detail.text}</b>
                 </Typography>
                 <br />
-                <Typography color="textPrimary" variant="h5"> {country} </Typography>
+                <Typography color="textPrimary" variant="h6"> {country} </Typography>
                 <br />
-                <Typography variant="h5">
+                <Typography variant="h6">
                   <CountUp
                     start={0}
                     end={detail.value}

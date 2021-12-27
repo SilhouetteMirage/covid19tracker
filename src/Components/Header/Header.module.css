@@ -1,9 +1,5 @@
-.navButton {
-    background-color: rgba(23, 206, 175, 0.8);
-    font-weight: bold;    
-}
-
-.navButton:hover {
-    color:rgba(0, 0, 0, 0.8);
-    background-color: rgba(3, 248, 207, 0.9);
+.NavButton:hover {
+    color: rgba(0, 0, 0, 1.0);
+    background-color: rgb(191, 3, 248);
+    border-color:rgb(74, 9, 94);
 }
