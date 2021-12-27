@@ -16,5 +16,9 @@
   @media (max-width: 770px) {
     .nativeSelect {
       margin-top: 2em;
+      
+    }
+    .formControl {
+        width: 90%;
     }
 }
