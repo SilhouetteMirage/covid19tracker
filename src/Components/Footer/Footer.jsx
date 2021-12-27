@@ -9,7 +9,7 @@ class Footer extends Component {
             <footer style={{
                 height: '1.5em',
                 paddingTop: '1em',
-                paddingBottom: '1em',
+                paddingBottom: '2em',
                 display: 'grid',
                 justifyContent: 'center',
                 width: '100%',
